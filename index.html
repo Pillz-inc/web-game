@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Pills_</title>
+    <title>Unity WebGL Player | Cellz</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -34,8 +34,8 @@
         frameworkUrl: buildUrl + "/build.framework.js",
         codeUrl: buildUrl + "/build.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "Pills_",
+        companyName: "PillzTech",
+        productName: "Cellz",
         productVersion: "0.1",
       };
 
@@ -67,6 +67,7 @@
         canvas.style.height = "100%";
       }
 
+      canvas.style.background = "url('" + buildUrl + "/build.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
